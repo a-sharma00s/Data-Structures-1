@@ -1,0 +1,268 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ashish Sharma
+ID:      169044454
+Email:   shar4454@mylaurier.ca
+Version: 2023-01-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+movie = Movie("Movie Name", 2023, "Director Name", 2.5, [4, 3, 0, 5])
+Title:    Movie Name
+Year:     2023
+Director: Director Name
+Rating:   2.5
+Genres:   comedy, romance, science fiction, zombie
+
+movie = Movie("Club Penguin is Kil", 2013, "LeBron James", 1.2, [4, 0, 1])
+Title:    Club Penguin is Kil
+Year:     2013
+Director: LeBron James
+Rating:   1.2
+Genres:   comedy, science fiction, fantasy
+
+movie = Movie("Somehow I Manage", 2015, "Michael Scott", 1.2, [2, 8, 7])
+Title:    Somehow I Manage
+Year:     2015
+Director: Michael Scott
+Rating:   1.2
+Genres:   drama, horror, historical
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+movie = Movie('Movie Title', 2022, 'Director Name', 3.5, [1, 2, 6, 3])
+1,2,6,3
+
+movie = Movie('Movie Title', 2022, 'Director Name', 3.5, [0, 8, 1])
+0,8,1
+
+movie = Movie('Movie Title', 2022, 'Director Name', 3.5, [1, 3])
+1,3
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+menu = Movie.genres_menu()
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Genres
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Error: not a positive number
+Enter a genre number (ENTER to quit): 1
+Enter a genre number (ENTER to quit): 2
+Enter a genre number (ENTER to quit): 3
+Enter a genre number (ENTER to quit): 
+[1, 2, 3]
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+movie = get_movie()
+Title: Spider-Man
+Year: 2002
+Director: Sam Raimi
+Rating: 7.4
+Genres
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+Enter a genre number (ENTER to quit): 6
+Enter a genre number (ENTER to quit): 2
+Enter a genre number (ENTER to quit): 10
+Enter a genre number (ENTER to quit): 
+Title:    Spider-Man
+Year:     2002
+Director: Sam Raimi
+Rating:   7.4
+Genres:   drama, action, mystery
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+movie = read_movie(line)
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+
+movie = read_movie(line)
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+
+movie = read_movie(line)
+Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+movies = read_movies(fv)
+
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror 
+
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction 
+
+Title:    Zulu
+Year:     1964
+Director: Cy Endfield
+Rating:   7.8
+Genres:   war 
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action 
+
+Title:    Omega Man, The
+Year:     1971
+Director: Boris Sagal
+Rating:   6.6
+Genres:   science fiction, action 
+
+Title:    Last Man On Earth, The
+Year:     1964
+Director: Ubaldo Ragona
+Rating:   6.9
+Genres:   science fiction 
+
+Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy 
+
+Title:    Stardust
+Year:     2007
+Director: Matthew Vaughn
+Rating:   7.7
+Genres:   fantasy, comedy 
+
+Title:    Juno
+Year:     2007
+Director: Jason Reitman
+Rating:   7.7
+Genres:   romance, comedy 
+
+Title:    Darjeeling Limited, The
+Year:     2007
+Director: Wes Anderson
+Rating:   7.1
+Genres:   comedy 
+
+Title:    Broken Flowers
+Year:     2005
+Director: Jim Jarmusch
+Rating:   7.2
+Genres:   romance, comedy 
+
+Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action 
+
+Title:    Horror of Dracula
+Year:     1958
+Director: Terence Fisher
+Rating:   7.4
+Genres:   horror 
+
+Title:    Jason and the Argonauts
+Year:     1963
+Director: Don Chaffey
+Rating:   7.4
+Genres:   fantasy, action 
+
+Title:    Wrong Box, The
+Year:     1966
+Director: Bryan Forbes
+Rating:   7.0
+Genres:   comedy 
+
+Title:    Finding Dory
+Year:     2016
+Director: Andrew Stanton, Angus MacLane
+Rating:   7.5
+Genres:   comedy 
+
+Title:    Manos: The Hands of Fate
+Year:     1966
+Director: Harold P. Warren
+Rating:   1.9
+Genres:   horror 
+
+Title:    Incredibly Strange Creatures Who Stopped Living and Became Mixed-Up Zombies!!?, The
+Year:     1964
+Director: Ray Dennis Steckler
+Rating:   2.2
+Genres:   horror 
+
+Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama 
+
+Title:    Wonder Woman
+Year:     2017
+Director: Patty Jenkins
+Rating:   8.1
+Genres:   fantasy, action 
+
+Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama 
+-------------------------------------------------------
