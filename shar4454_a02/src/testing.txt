@@ -1,0 +1,90 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ashish Sharma
+ID:      169044454
+Email:   shar4454@mylaurier.ca
+Version: 2023-01-30
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Search for movies by year: 2013
+Movies by Year: 2013
+-------------------------------------------------------
+Title:    Zulu
+Year:     2013
+Director: Jerome Salle
+Rating:   6.7
+Genres:   drama
+-------------------------------------------------------
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+Search for movies by rating: 8.2
+Movies by Rating: 8.2
+-------------------------------------------------------
+Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action
+Title:    Z
+Year:     1969
+Director: Costa-Gavras
+Rating:   8.2
+Genres:   drama
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Search for movies by genre: 0
+Movies by Genre: 0
+-------------------------------------------------------
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+Title:    Omega Man, The
+Year:     1971
+Director: Boris Sagal
+Rating:   6.6
+Genres:   science fiction, action
+Title:    Last Man On Earth, The
+Year:     1964
+Director: Ubaldo Ragona
+Rating:   6.9
+Genres:   science fiction
+Title:    Alphaville
+Year:     1965
+Director: Jean-Luc Godard
+Rating:   7.1
+Genres:   science fiction, comedy
+Title:    Star Wars: Episode IV - A New Hope
+Year:     1977
+Director: George Lucas
+Rating:   8.7
+Genres:   science fiction, action
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Movies by Genre code: [3, 4, 5, 8]
+-------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Movies by genres..
+[6, 3, 2, 3, 8, 1, 5, 0, 4, 1, 0]
+-------------------------------------------------------

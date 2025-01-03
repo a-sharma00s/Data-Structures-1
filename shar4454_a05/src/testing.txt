@@ -1,0 +1,158 @@
+"""
+-------------------------------------------------------
+Lab/Assignment  Testing
+-------------------------------------------------------
+Author:  Ashish Sharma
+ID:      169044454
+Email:   shar4454@mylaurier.ca
+Version: 2023-02-19
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+Testing: __eq__
+array: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+target: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+equal: True
+
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+movies equal: False
+
+list one: []
+list two: []
+equal: True
+
+Testing: __getitem__
+item at index 1:
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+
+Testing append
+before append: []
+after append: [1, 2, 3]
+
+source before: 
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+
+source after: 
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+Testing clean...
+numbers before: [1, 2, 3, 10, 10, 10, 10]
+numbers after: [1, 2, 3, 10]
+source before: 
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+source after: 
+Title:    Dark City
+Year:     1998
+Director: Alex Proyas
+Rating:   7.8
+Genres:   science fiction
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+
+Testing intersection...
+list before intersection: []
+list after: [5, 1, 2, 3]
+
+Title:    Spider-Man 3
+Year:     2007
+Director: Sam Raimi
+Rating:   7.5
+Genres:   action
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+
+-------------------------------------------------------
